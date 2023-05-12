@@ -1,0 +1,19 @@
+.row {
+    padding: 40px;
+    background: #231b83;
+    margin: 0px;
+    box-shadow: 0px 0px 20px #521fd7;
+}
+
+h1,
+h3,
+h4,
+p {
+    color: white;
+}
+
+h1,
+h3 {
+    display: inline;
+    padding: 20px;
+}

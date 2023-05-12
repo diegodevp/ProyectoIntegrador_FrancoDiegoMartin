@@ -1,0 +1,33 @@
+.row {
+    padding: 40px;
+    margin: 0;
+}
+
+.circle-desktop {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    padding: 40px 0 60px 0;
+}
+
+.circle-mobile {
+    display: none;
+}
+
+/*PHONE*/
+@media (max-width: 500px) {
+    .circle-desktop {
+        display: none;
+    }
+
+    .circle-mobile {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 10px;
+    }
+}

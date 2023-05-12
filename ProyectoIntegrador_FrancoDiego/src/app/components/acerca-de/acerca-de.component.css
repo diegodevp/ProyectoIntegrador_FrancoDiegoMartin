@@ -1,0 +1,42 @@
+
+.row {
+    padding: 40px;
+    background: #fff;
+    margin: 0px;
+    box-shadow: 0px 0px 20px #521fd7;
+}
+
+h1,
+h3,
+h4,
+p {
+    color: white;
+}
+
+h1,
+h3 {
+    display: inline;
+    padding: 20px;
+}
+app-social {
+    float: left;
+    margin-top: 25px;
+}
+#fotoperfil {
+    border-radius: 50%;
+    width: 300px;
+    margin-top: -120px;
+    z-index: 20;
+}
+/*desktop*/
+@media (min-width: 767px) {
+    #fotoperfil {
+        margin-left: 40px;
+    }
+}
+/*mobile*/
+@media (max-width: 700px) {
+    #fotoperfil {
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+}
+
+#logoAP {
+    width: 120px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#logoAP:hover {
+    color: #521fd7;
+}
