@@ -1,18 +1,10 @@
 
 a i {
-    color: #000;
+    color: #222;
     font-size: 25px;
     padding: 12px;
     margin-right: px;
     line-height: 10px;
-}
-
-#login {
-    font-size: 14px;
-    padding: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    line-height: 13px;
 }
 
 #linkedin:hover {
@@ -35,21 +27,5 @@ a i {
     color: #231b83;
 }
 
-.menu {
-    display: none;
-}
 
 /* Path: ProyectoIntegrador_FrancoDiego\src\app\components\social\social.component.html */
-
-@media (max-width: 500px) {
-    .social {
-        display: none;
-    }
-    .menu {
-        display: block;
-        color: #fff;
-    }
-    #menu:hover {
-        color: #33b3f6;
-    }
-}

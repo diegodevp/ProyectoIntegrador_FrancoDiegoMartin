@@ -11,3 +11,13 @@
 #logoAP:hover {
     color: #521fd7;
 }
+
+/* MOBILE */
+
+@media (max-width: 460px) {
+    #logoAP {
+        width: 100px;
+        margin-left: 20;
+        margin-top: 0px;
+    }
+}
